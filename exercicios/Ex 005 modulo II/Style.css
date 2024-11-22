@@ -1,0 +1,43 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body{
+   
+    font-family: "Comic Neue", serif;
+  font-weight: 300;
+  font-style: normal;
+    background-image: linear-gradient(to bottom,  #00ffff, #FFFFFF);
+}
+
+h1{
+
+    color: green;
+    
+}
+
+#principal {
+    text-align: center;
+    background-color: green;
+    color: white;
+}  
+
+h2{
+
+    color: chartreuse;
+}
+
+.basico{
+    color: rgb(150, 255, 90)
+}
+.intermediario{
+    color: yellow;
+}
+
+.avançado{
+    color: red;
+}
+
+.destaque {
+    background-color: yellowgreen;
+}

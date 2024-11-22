@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body style="background-color: aqua;">
+    <h1>imagem dinamica</h1>
+    <p> Tende abrir esse site em varios dispositivos diferentes ou simplesmente diminua o tamonho do seu navegador</p>
+    <picture>
+        <!-- Não entendi direito essa parte do source -->
+        <source media="(max-width:500px )" srcset="imagens/ola.jpg" type="image/jpg">      
+        <img src="paste.jpg" alt="">
+   </picture>
+   <h1>reproduzindo audio</h1>
+   <p>vamos aprender a reproduzir audios em html5</p>
+   <audio  preload="auto"  autoplay controls loop>
+    <source src="yatagarasu.mp3" type="">
+   </audio>
+   <h1>Inserindo videos hospedados localmente</h1>
+   <p>esse video esta hospedado no meu servidor</p>
+   <video src="4k-special--geometry-dash-211---4k-bloodlust-by-knobbelboy--more-extreme-demon-pre.mp4" width="700
+   "  controls autoplay loop></video>
+
+   <h1>inserindo videos do youtube</h1>
+   <iframe width="700" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=IkbhezFJcH90X0js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+   
+<p><a href="pagina02.html">ir para a pagina02</a></p>
+</body>
+</html>
