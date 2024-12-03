@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+    size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+    border: 1px solid black;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.eo {
+    padding-left: 10px;
+}
+
