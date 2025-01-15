@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Site Extenso</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Home -->
+    <section id="home">
+        <h1>Bem-vindo ao Site Extenso</h1>
+        <p>Este site é um exemplo de como podemos gerar conteúdo com HTML, CSS e JavaScript.</p>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa fictícia, dedicada à criação de sites incríveis.</p>
+        <div class="team">
+            <h3>Equipe</h3>
+            <div class="member">
+                <h4>João Silva</h4>
+                <p>CEO</p>
+            </div>
+            <div class="member">
+                <h4>Ana Costa</h4>
+                <p>Desenvolvedora</p>
+            </div>
+            <div class="member">
+                <h4>Carlos Almeida</h4>
+                <p>Designer</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <div class="service">
+            <h3>Consultoria</h3>
+            <p>Oferecemos consultoria para o seu negócio.</p>
+        </div>
+        <div class="service">
+            <h3>Design Gráfico</h3>
+            <p>Criamos designs criativos para sua marca.</p>
+        </div>
+        <div class="service">
+            <h3>Desenvolvimento Web</h3>
+            <p>Desenvolvemos sites e sistemas modernos e rápidos.</p>
+        </div>
+    </section>
+
+    <!-- Seção de Portfólio -->
+    <section id="portfolio">
+        <h2>Nosso Portfólio</h2>
+        <div class="portfolio-item">
+            <h3>Projeto 1</h3>
+            <p>Descrição do projeto 1</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 2</h3>
+            <p>Descrição do projeto 2</p>
+        </div>
+        <div class="portfolio-item">
+            <h3>Projeto 3</h3>
+            <p>Descrição do projeto 3</p>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contatoForm">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 Site Extenso. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
